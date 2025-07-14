@@ -1,5 +1,5 @@
 <?php // index.php
-$page_title = "My Portfolio | Software Developer and Cybersecurity";
+$page_title = "Dexter's Portfolio";
 $name = "Dexter Jones";
 $job_title = "Software Developer and Cybersecurity";
 $email = "Dexter.jones.jobs@gmail.com";
