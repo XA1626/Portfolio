@@ -2,6 +2,15 @@
 
 // Project detail page functionality
 document.addEventListener('DOMContentLoaded', function() {
+    const specToggles = document.querySelectorAll('.spec-toggle');
+    
+    specToggles.forEach(toggle => {
+        toggle.addEventListener('click', function() {
+            const specBox = this.parentElement;
+            specBox.classList.toggle('active');
+        });
+    });
+
     // Highlight active project in navigation
     const projectId = new URLSearchParams(window.location.search).get('id');
     if (projectId) {

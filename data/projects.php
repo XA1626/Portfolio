@@ -64,17 +64,41 @@ return [
         'description' => 'B18c1 Turbo Build - 350hp Track Car',
         'skills' => ['Engine Building and Tuning', 'Custom Fabrication', 'Suspension Setup'],
         'image' => 'humble',
-        'content' => '<h2>Project Overview</h2>
-                    <p>This project involved transforming a stock Honda Civic EH9 into a high-performance track car with a turbocharged B18c1 engine.</p>
-                    
-                    <h2>Build Details</h2>
-                    <ul>
-                        <li><strong>Engine:</strong> B18c1 rebuilt with forged internals</li>
-                        <li><strong>Turbo:</strong> Garrett GTX2867R with custom manifold</li>
-                        <li><strong>Management:</strong> Hondata S300 ECU with custom tune</li>
-                        <li><strong>Suspension:</strong> BC Racing coilovers with custom valving</li>
-                        <li><strong>Brakes:</strong> Wilwood 4-piston front calipers</li>
-                    </ul>
+        'content' => '<h2>Build Details</h2>
+            <div class="specs-container">
+                <div class="spec-box">
+                    <button class="spec-toggle">Engine <i class="fas fa-chevron-down"></i></button>
+                    <div class="spec-content">
+                        <p><strong>B18c1</strong> with Dartson liners</p>
+                        <ul>
+                            <li>Forged pistons</li>
+                            <li>Eagle rods</li>
+                            <li>ARP head studs</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="spec-box">
+                    <button class="spec-toggle">Turbo <i class="fas fa-chevron-down"></i></button>
+                    <div class="spec-content">
+                        <p><strong>Garrett GTX2867R</strong> with custom manifold</p>
+                        <ul>
+                            <li>Tial wastegate</li>
+                            <li>Custom downpipe</li>
+                            <li>Front-mount intercooler</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="spec-box">
+                    <button class="spec-toggle">Management <i class="fas fa-chevron-down"></i></button>
+                    <div class="spec-content">
+                        <p><strong>Hondata S300</strong> ECU with custom tune</p>
+                        <ul>
+                            <li>Launch control</li>
+                            <li>Flat-foot shifting</li>
+                            <li>Dyno tuned</li>
+                        </ul>
                     
                     <h2>Performance</h2>
                     <p>The car now produces 350hp at 12psi on pump gas, with a broad torque curve perfect for track use. It has competed in several time attack events with consistent results.</p>
