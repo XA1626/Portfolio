@@ -3,7 +3,7 @@
 <header>
     <div class="container">
         <nav>
-            <a href="#" class="logo"><?php echo substr($name, 0, 1); ?></a>
+            <!--<a href="#" class="logo"><?php echo substr($name, 0, 1); ?></a>-->
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>

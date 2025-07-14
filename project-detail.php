@@ -1,16 +1,18 @@
 <?php // project-detail.php
 // Include the projects data
-$projects = include 'data/projects.php';
+$projectCategories = include 'data/projects.php';
 
 // Get the project ID from URL
 $projectId = $_GET['id'] ?? null;
 
 // Find the requested project
 $project = null;
-foreach ($projects as $p) {
-    if ($p['id'] === $projectId) {
-        $project = $p;
-        break;
+foreach ($projectCategories as $category => $projects) {
+    foreach ($projects as $p) {
+        if ($p['id'] === $projectId) {
+            $project = $p;
+            break 2;
+        }
     }
 }
 
@@ -31,7 +33,7 @@ include 'header.php';
     <section class="project-detail">
         <div class="container">
             <a href="index.php#projects" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
-            
+
             <div class="project-header">
                 <h1><?php echo $project['title']; ?></h1>
                 <p class="project-description"><?php echo $project['description']; ?></p>

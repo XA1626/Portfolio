@@ -8,6 +8,6 @@
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
-        <p>&copy; <?php echo date('Y'); ?> <?php echo $name; ?>. All Rights Reserved.</p>
+        <!-- <p>&copy; <?php echo date('Y'); ?> <?php echo $name; ?>. All Rights Reserved.</p> -->
     </div>
 </footer>
