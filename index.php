@@ -1,11 +1,11 @@
 <?php // index.php
-$page_title = "My Portfolio | Web Developer";
+$page_title = "My Portfolio | Software Developer and Cybersecurity";
 $name = "Dexter Jones";
-$job_title = "Web Developer & UI Designer";
+$job_title = "Software Developer and Cybersecurity";
 $email = "Dexter.jones.jobs@gmail.com";
 $phone = "+64 21 124 8180";
 $location = "Auckland , New Zealand";
-$bio = "Hello! I'm Dexter Jones, a passionate web developer with over 5 years of experience creating dynamic websites and applications. I specialize in PHP, HTML, CSS, JavaScript, and modern frameworks.";
+$bio = "Hello! I'm Dexter Jones, I am double majoring in Computer Science (Software Development and Cybersecurity).";
 ?>
 <!DOCTYPE html>
 <html lang="en">
