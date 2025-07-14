@@ -1,29 +1,17 @@
-// script.js
-// Mobile Menu Toggle
-const mobileMenu = document.querySelector('.mobile-menu');
-const navLinks = document.querySelector('.nav-links');
+// script.js (add this to your existing file)
 
-mobileMenu.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-});
-
-// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        
-        navLinks.classList.remove('active');
-        
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+// Project detail page functionality
+document.addEventListener('DOMContentLoaded', function() {
+    // Highlight active project in navigation
+    const projectId = new URLSearchParams(window.location.search).get('id');
+    if (projectId) {
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.classList.remove('active');
         });
-    });
+        
+        const projectsLink = document.querySelector('.nav-links a[href="#projects"]');
+        if (projectsLink) {
+            projectsLink.classList.add('active');
+        }
+    }
 });
-
-// Form submission handling
-const form = document.querySelector('.contact-form form');
-if (form) {
-    form.addEventListener('submit', function() {
-        this.reset();
-    });
-}
