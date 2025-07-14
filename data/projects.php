@@ -107,10 +107,15 @@ return [
                             <li>Flat-foot shifting</li>
                             <li>Dyno tuned</li>
                         </ul>
-                    
-                    <h2>Performance</h2>
-                    <p>The car now produces 350hp at 12psi on pump gas, with a broad torque curve perfect for track use. It has competed in several time attack events with consistent results.</p>
-                    
+                    </div>
+                </div>
+            </div>
+
+            <p>This project involved building a high-performance B18c1 engine with a turbo setup.</p>
+
+            <h2>Performance</h2>
+            <p>The car now produces 350hp at 12psi on pump gas, with a broad torque curve perfect for track use. It has competed in several time attack events with consistent results.</p>
+
                     <h2>Future Plans</h2>
                     <p>Planned upgrades include a built transmission, larger turbo, and aerodynamic improvements.</p>',
         'github' => null,
