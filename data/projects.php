@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="<?php echo dirname($_SERVER['PHP_SELF']) === '/' ? 'style.css' : '../style.css'; ?>">
 </head>
 
+<script src="script.js"></script>
+
 <?php // data/projects.php
 return [
     'software' => [
@@ -69,7 +71,7 @@ return [
         [
         'id' => 'humble',
         'title' => 'Humble',
-        'description' => 'B18c1 Turbo Build - 350hp Track Car',
+        'description' => 'B18c1 Turbo Build - Track Car',
         'skills' => ['Engine Building and Tuning', 'Custom Fabrication', 'Suspension Setup'],
         'image' => 'humble',
         'content' => '<h2>Build Details</h2>
@@ -77,23 +79,35 @@ return [
                 <div class="spec-box">
                     <button class="spec-toggle">Engine <i class="fas fa-chevron-down"></i></button>
                     <div class="spec-content">
-                        <p><strong>B18c1</strong> with Dartson liners</p>
                         <ul>
-                            <li>Forged pistons</li>
-                            <li>Eagle rods</li>
+                            <li>CP Forged pistons</li>
+                            <li>K1 rods</li>
                             <li>ARP head studs</li>
+                            <li>Custom Darton sleeves</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="spec-box">
+                    <button class="spec-toggle">Intake <i class="fas fa-chevron-down"></i></button>
+                    <div class="spec-content">
+                        <ul>
+                            <li>Skunk2 Ultra Street Intake Manifold</li>
+                            <li>70mm throttle body</li>
+                            <li>Custom intake piping</li>
                         </ul>
                     </div>
                 </div>
                 
                 <div class="spec-box">
-                    <button class="spec-toggle">Turbo <i class="fas fa-chevron-down"></i></button>
+                    <button class="spec-toggle">Turbo Kit <i class="fas fa-chevron-down"></i></button>
                     <div class="spec-content">
-                        <p><strong>Garrett GTX2867R</strong> with custom manifold</p>
                         <ul>
+                            <li>Aeroflow 6662</li>
+                            <li>Custom exhaust manifold</li>
                             <li>Tial wastegate</li>
                             <li>Custom downpipe</li>
-                            <li>Front-mount intercooler</li>
+                            <li>Custom front-mount intercooler</li>
                         </ul>
                     </div>
                 </div>
