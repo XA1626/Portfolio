@@ -22,7 +22,7 @@ $bio = "Hello! I'm Dexter Jones, I am double majoring in Computer Science (Softw
     <main>
         <?php include 'hero.php'; ?>
         <?php include 'about.php'; ?>
-        <?php include 'skills.php'; ?>
+        <?php include 'skills.php'; ?>  <!-- Updated skills section -->
         <?php include 'projects.php'; ?>
         <?php include 'contact.php'; ?>
     </main>

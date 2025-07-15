@@ -265,6 +265,57 @@ nav {
     color: var(--gray);
 }
 
+.skill-category {
+    margin-bottom: 40px;
+}
+
+.category-title {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--light-gray);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.skill-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.skill-item h4 {
+    margin-bottom: 15px;
+    color: var(--dark);
+}
+
+.skill-bar {
+    height: 8px;
+    background: var(--light-gray);
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.skill-level {
+    height: 100%;
+    background: var(--primary);
+    border-radius: 4px;
+    transition: width 1s ease-in-out;
+}
+
+.skill-percentage {
+    text-align: right;
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
 /* Projects Section */
 .projects-grid {
     display: grid;
