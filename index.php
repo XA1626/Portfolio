@@ -1,7 +1,7 @@
 <?php // index.php
 $page_title = "Dexter's Portfolio";
 $name = "Dexter Jones";
-$job_title = "Software Developer and Cybersecurity";
+$job_title = "Software Developer & Cybersecurity Enthusiast & Petrol Mechanic";
 $email = "Dexter.jones.jobs@gmail.com";
 $phone = "+64 21 124 8180";
 $location = "Auckland , New Zealand";

@@ -15,8 +15,9 @@
             <div class="about-text">
                 <h3>I have a Bachelor of Computer and Information Sciences degree</h3>
                 <p><?php echo $bio; ?></p>
-                <p>My approach combines technical expertise with creative problem-solving to deliver solutions that not only meet but exceed client expectations. I believe in writing clean, maintainable code and creating intuitive user experiences.</p>
-                <p>When I'm not coding, you can find me hiking in nature, reading tech blogs, or contributing to open-source projects. I'm constantly learning and staying updated with the latest industry trends.</p>
+                <p>As a software developer, I am passionate about creating innovative solutions that make a difference. My approach combines technical expertise with creative problem-solving to deliver solutions that not only meet but exceed client expectations. I believe in writing clean, maintainable code and creating intuitive user experiences.</p>
+                <p>As a cybersecurity enthusiast, I am dedicated to protecting systems and networks from cyber threats. I stay updated with the latest security trends and best practices to ensure robust defense mechanisms are in place.</p>
+                <p>As a petrol mechanic, I have a deep understanding of automotive systems and a passion for keeping vehicles running smoothly. I enjoy diagnosing issues and implementing effective solutions to ensure optimal performance.</p>
                 <div class="about-info">
                     <p><strong>Name:</strong> <?php echo $name; ?></p>
                     <p><strong>Email:</strong> <?php echo $email; ?></p>
